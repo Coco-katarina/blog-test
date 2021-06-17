@@ -19,9 +19,9 @@
   * 旁支内容aside
   * `&copy;` 版权标志
 ## 全局属性
-### 所有标签都
+### 所有标签都有的属性
 * contenteditable 任何一个元素可以被 编辑
 * hidden 
-* tabindex 
+* tabindex  控制tab的选中高亮顺序，0：最后一个，-1：别走我这儿
 * id 元素唯一用，对应"#"
 * class 元素不唯一时用,对应"."
