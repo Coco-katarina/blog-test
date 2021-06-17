@@ -18,4 +18,10 @@
   * 主要内容main
   * 旁支内容aside
   * `&copy;` 版权标志
- 
+## 全局属性
+### 所有标签都
+* contenteditable 任何一个元素可以被 编辑
+* hidden 
+* tabindex 
+* id 元素唯一用，对应"#"
+* class 元素不唯一时用,对应"."
