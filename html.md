@@ -30,3 +30,23 @@ https://wangdoc.com/html/index.html
 
 ### 内容标签
 * pre 保留输入的回车、空格 <pre>空  格   </pre>
+
+## 英语小课堂
+1. hyper  超级
+2. target 目标
+3. reference 引用
+4. frame 边框、框架
+5. blank 空白
+
+## 重点标签
+### a标签
+#### 属性
+1. href
+取值
+* 网址
+* 路径 a/b/c
+* 伪协议 JavaScript：代码; mailto:邮箱；tel: 手机号
+3. target
+4. download
+5. rel=noopener
+
