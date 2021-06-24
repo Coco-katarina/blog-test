@@ -43,10 +43,16 @@ https://wangdoc.com/html/index.html
 #### 属性
 1. href
 取值
-* 网址
+* 网址 https://... 或  http://...  或//...
 * 路径 a/b/c
 * 伪协议 JavaScript：代码; mailto:邮箱；tel: 手机号
-3. target
-4. download
+* id  href=#XXX
+2. target
+内置名字
+* _blank
+* _top
+* _parent
+* _self
+3. download
 5. rel=noopener
 
