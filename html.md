@@ -43,16 +43,16 @@ https://wangdoc.com/html/index.html
 #### 属性
 1. href
 取值
-* 网址 https://... 或  http://...  或//...
-* 路径 a/b/c
-* 伪协议 JavaScript：代码; mailto:邮箱；tel: 手机号
-* id  href=#XXX
+ * 网址 https://... 或  http://...  或//...
+ * 路径 a/b/c
+ * 伪协议 JavaScript：代码; mailto:邮箱；tel: 手机号
+ * id  href=#XXX
 2. target
 内置名字
-* _blank 空白页面
-* _top 最顶层页面
-* _parent 父级窗口
-* _self  当前页面
+ * _blank 空白页面
+ * _top 最顶层页面
+ * _parent 父级窗口
+ * _self  当前页面
 3. download
 5. rel=noopener
 
@@ -63,14 +63,13 @@ https://wangdoc.com/html/index.html
 * tfoot
 #### 相关样式
 1. table-layout
-   * auto 根据内容分配宽度
-   * fixed 尽量等宽
+  * auto 根据内容分配宽度
+  * fixed 尽量等宽
 2. border-collapse
    border是否合并，默认"separate" 分开，合并设为"collapse"
 3. border-spacing
    border之间的间隔
    
-
 ### img标签
 #### 作用
 发出get请求，展示一张图片
@@ -88,10 +87,16 @@ max-width : 100%
 #### 作用
 发出get/post请求，然后刷新页面
 #### 属性
-1. action
-2. autocomplete
-3. method
-4. target
+1. action 发情请求的url
+2. autocomplete "on"/"off" 自动填充
+3. method 发送请求的方法
+4. target 规定在何处打开 action URL
+   * _blank
+   * _self
+   * _parent
+   * _top
+   * framename
 #### 事件
 onsubmit
+ps： input和button的type都设置为"submit"的区别，input因为设置的vaule值所以不可以套用其他标签，但是button可以，例如<button type="submit"><strong>提交</strong></button>
 
