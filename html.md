@@ -69,4 +69,29 @@ https://wangdoc.com/html/index.html
    border是否合并，默认"separate" 分开，合并设为"collapse"
 3. border-spacing
    border之间的间隔
+   
+
+### img标签
+#### 作用
+发出get请求，展示一张图片
+#### 属性
+1. alt 图片加载失败显示的内容
+2. height、width 设其一 图片自适应，如果两者一起设置会变形
+3. src
+#### 事件
+onload
+onerror
+#### 响应式
+max-width : 100%
+
+### form标签
+#### 作用
+发出get/post请求，然后刷新页面
+#### 属性
+1. action
+2. autocomplete
+3. method
+4. target
+#### 事件
+onsubmit
 
