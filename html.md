@@ -99,5 +99,6 @@ max-width : 100%
 #### 事件
 onsubmit  
 要放一个type=submit才能触发submit事件
+
 ps： input和button的type都设置为"submit"的区别，input因为设置的vaule值所以不可以套用其他标签，但是button可以，例如<button type="submit"><strong>提交</strong></button>
 
