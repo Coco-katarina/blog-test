@@ -49,10 +49,24 @@ https://wangdoc.com/html/index.html
 * id  href=#XXX
 2. target
 内置名字
-* _blank
-* _top
-* _parent
-* _self
+* _blank 空白页面
+* _top 最顶层页面
+* _parent 父级窗口
+* _self  当前页面
 3. download
 5. rel=noopener
+
+### table标签
+#### 相关标签
+* thead
+* tbody
+* tfoot
+#### 相关样式
+1. table-layout
+   * auto 根据内容分配宽度
+   * fixed 尽量等宽
+2. border-collapse
+   border是否合并，默认"separate" 分开，合并设为"collapse"
+3. border-spacing
+   border之间的间隔
 
