@@ -20,5 +20,21 @@ at语法
  content-box width = 内容宽度
  border-box width = 内容宽度 + padding + border
  
+ ### 长度单位
+ * px 像素
+ * em 相对于自身font-size的倍数
+ * 百分数
+ * 整数
+ * rem
+ * vw 和 vh
+ 
+ ### 颜色
+ * 十六进制 #FF6600 或 #F60
+ * RGBA颜色 
+ * hsl颜色
+ 
+ 
+ 
+ 
  
 
