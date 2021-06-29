@@ -37,7 +37,7 @@ html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通�
  * RGBA颜色 
  * hsl颜色
  
- 彩虹小练习 http://js.jirengu.com/yohibufoxi/1/edit?html,css,output
+ 彩虹小练习 http://js.jirengu.com/babimurizi/1/edit?html,css
  
  ## 布局
  
