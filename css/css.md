@@ -40,6 +40,25 @@ html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通�
  彩虹小练习 http://js.jirengu.com/babimurizi/1/edit?html,css
  
  ## 布局
+ ### float布局
+ #### 步骤 
+ 子元素上加 `float: left`和`width`  
+ 在父元素上加`.clearfix` ，height为子元素包含的高度
+ ```
+ .clearfix:after{
+  content:'';
+  display:block;
+  clear:both;
+ }
+ ```
+ #### 经验 
+*  会留一些空间，或者最后一个不设置width
+*  不需要做响应式，手机没有IE，而float是为IE准备的
+*  IE 6/7存在双倍margin bug，解决办法
+   1. 将错就错，margin减半，`_margin-left:5px`
+   2. 加上一个`display:inline-block`
+* 平均布局，利用好-marigin
  
+ 例子：http://js.jirengu.com/sanutafute/1/edit?html,css,output
  
 
