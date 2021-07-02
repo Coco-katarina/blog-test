@@ -96,6 +96,8 @@ html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通�
 
 以上例子整改：http://js.jirengu.com/vuxuhufede/1/edit
 
+#### 练习 青蛙跳 https://flexboxfroggy.com/#zh-cn
+
 #### 经验
 * 永远不要把width和height写死，除非特殊情况
 * 用min-width / max-width / min-height / max-height
