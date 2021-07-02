@@ -80,6 +80,19 @@ html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通�
  * row-reverse: 元素摆放的方向和文字方向相反
  * column: 元素从上放到下
  * column-reverse: 元素从下放到上
+ 4. flex-wrap 必须在单行或自动换行成多行
+ *  nowrap: 所有的元素都在一行
+ *  wrap: 元素自动换成多行
+ *  wrap-reverse: 元素自动换成逆序的多行
+ 5. flex-flow
+ * flex-direction和flex-wrap两个属性合一起的缩写，空格隔开
+ 6. align-content 行与行之间隔
+ * flex-start: 多行都集中在顶部
+ * flex-end: 多行都集中在底部
+ * center: 多行居中
+ * space-between: 行与行之间保持相等距离
+ * space-around: 每行的周围保持相等距离
+ * stretch: 每一行都被拉伸以填满容器
 
 以上例子整改：http://js.jirengu.com/vuxuhufede/1/edit
 
@@ -87,3 +100,10 @@ html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通�
 * 永远不要把width和height写死，除非特殊情况
 * 用min-width / max-width / min-height / max-height
 * flex和margin-xxx:auto 配合有意外的效果
+
+
+### 草图软件
+1. Balsamiq
+2. Figma
+3. 墨刀
+4. Adoube XD
