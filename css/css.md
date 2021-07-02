@@ -61,4 +61,5 @@ html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通�
  
  例子：http://js.jirengu.com/sanutafute/1/edit?html,css,output
  
-
+### flex局部
+以上例子整改：http://js.jirengu.com/vuxuhufede/1/edit
