@@ -22,4 +22,4 @@
 2. inline元素不支持transform，需要先变成block
 
 #### 例子
-跳动的心 https://jsbin.com/dulenosoxe/edit?html,css,output
+跳动的心  https://jsbin.com/dulenosoxe/edit?html,css,output
