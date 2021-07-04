@@ -35,3 +35,34 @@
 可以用all代表所有属性，transition：all 200ms
 * 过渡方式参考 https://developer.mozilla.org/zh-CN/docs/conflicting/Web/CSS/easing-function
 
+### animation 
+1. 声明关键帧  @keyframes 
+2. 添加动画  animation 申明的关键帧名字
+动画停在最后一帧 最后加上forwards即可
+#### @keyframes完整语法
+1.标准写法  
+https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+* from  to
+```
+@keyframes slidein {
+  from {
+    transform: translateX(0%); 
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+```
+* 百分数
+```
+@keyframes identifier {
+  0% { top: 0; left: 0; }
+  30% { top: 50px; }
+  68%, 72% { left: 50px; }
+  100% { top: 100px; left: 100%; }
+}
+
+```
+
+
