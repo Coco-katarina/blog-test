@@ -16,7 +16,7 @@
 3. 旋转 rotate
 4. 倾斜 skew
 
-`translate:all ls`可以看到动画效果
+`translate:all .5s`可以看到动画效果
 #### 经验
 1. 一般都需要配合transition过渡
 2. inline元素不支持transform，需要先变成block
