@@ -30,6 +30,7 @@
 #### 语法
 属性名 时长 过渡方式 延迟
 * 例： transition：left 20ms linear，top 400ms
+* 
       ps：可以用逗号分隔两个不同属性
 可以用all代表所有属性，transition：all 200ms
 * 过渡方式参考 https://developer.mozilla.org/zh-CN/docs/conflicting/Web/CSS/easing-function
