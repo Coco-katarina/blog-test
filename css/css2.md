@@ -64,5 +64,17 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
 }
 
 ```
+#### animation语法
+时长 | 过渡方式 | 延迟 | 次数 | 方向 | 填充模式 | 是否暂停 | 动画名
+* 时长：1s / 1000ms
+* 过渡方式： 同transition
+* 次数： 数字 或infinite 无限
+* 方向： reverse | alternate（交替变化） | alternate-reverse
+* 填充模式:none | forwards（停在最后一帧） | backwards | both
+* 是否暂停：paused | running
+
+##### 例子
+跳动的心 
+https://jsbin.com/cesoxonara/1/edit?html,css,output
 
 
