@@ -8,3 +8,13 @@
 
 ### 经验
  1. 如果写了absolute，一般都得补一个relative
+
+### transform
+#### 四个常用功能
+1. 位移 translate
+2. 缩放 scale
+3. 旋转 rotate
+4. 倾斜 skew
+#### 经验
+1. 一般都需要配合transition过渡
+2. inline元素不支持transform，需要先变成block
