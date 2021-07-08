@@ -15,4 +15,17 @@
 * 一个域名可以对应不同IP，均衡负载 
 * 一个IP可以对应不同域名
 
+### curl命令 
+* 用curl可以发HTTP请求
+ `curl -v https://baidu.com`
+ 
+ `curl -s -v -- https://www.baidu.com`
+ * 理解以下概念
+ 1. url会被curl工具重写，先请求DNS获得IP
+ 2. 先进行TCP连接，TCP连接成功后，开始发送HTTP请求
+ 3. 请求内容看一眼
+ 4. 响应内容看一眼
+ 5. 响应结束后，关闭TCP连接（看不出来）
+ 6. 真正结束
+
 ### HTTP协议
