@@ -21,11 +21,11 @@
  
  `curl -s -v -- https://www.baidu.com`
  * 理解以下概念
- 1. url会被curl工具重写，先请求DNS获得IP
+ 1. url会被curl工具重写，先请求DNS(Domain Name System域名系统)获得IP
  2. 先进行TCP连接，TCP连接成功后，开始发送HTTP请求
  3. 请求内容看一眼
  4. 响应内容看一眼
  5. 响应结束后，关闭TCP连接（看不出来）
  6. 真正结束
 
-### HTTP协议
+### HTTP - HyperText Transfer Protocol超文本传输协议
