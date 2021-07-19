@@ -32,3 +32,11 @@ tail log 看 log 内容
 kill -9 pid 可以关掉进程
 killall node 可以关掉所有 node 进程
 ```
+#### 如何重启应用
+```
+ssh frank@实例ip
+cd nodejs-test
+git pull
+killall node（因为忘了进程号，实际上可以记下来）
+sh ./start
+```
