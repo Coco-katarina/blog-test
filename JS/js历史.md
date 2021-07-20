@@ -84,3 +84,8 @@
 * 同年，TJ受Sinatra启发，发布了Express.js
 #### 爆发
 * 技术太多，以后慢慢介绍：gulp、grunt、yeoman、requirejs、webpack、Angular、react、vue等
+
+## 中国的前端
+#### 正式出现时间
+* 2010年左右，中国才有专门的前端岗位
+
