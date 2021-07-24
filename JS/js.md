@@ -66,7 +66,20 @@
 * Stack ：栈，每个数据顺存放
 * Heap：堆，每个数据随机存放
 
-## JS入门三座大山之原型
+## JS入门三座大山之原型    
+### 前言
+console、document、object、array、func都挂在window上
+* window用内存图画出
+![window](https://user-images.githubusercontent.com/26460242/126872653-fed86843-7bd7-4729-9424-e5ab145d9ff3.PNG)
+简单画法
+![jian](https://user-images.githubusercontent.com/26460242/126872672-53f6f44f-1190-4999-a8c9-943e2fbccce9.PNG)
+#### 细节
+关于window
+* window变量和window对象是两个东西
+* window变量是一个容器，存档window对象的地址
+* window对象是Heap里的一坨数据
+* 同理 conso和console对象、Object和Object函数对象不是同一个东西，前者是内存地址，后者是一坨内存
+####
 
 
 
