@@ -28,3 +28,24 @@
 * var $ =2
 * var 你好 = ' hi'
 
+### while循环
+#### while(表达式){语句}  
+先判断表达式真假，do...while先执行后判断
+
+### label语句
+#### 语法
+```
+foo :{
+  console.log(1);
+  break foo;
+  console.log('本行不会输出');
+ }
+ console.log(2);
+```
+*  面试
+```
+{
+  foo : 1
+}
+```
+问，上面的是啥
