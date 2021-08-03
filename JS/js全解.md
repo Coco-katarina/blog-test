@@ -108,6 +108,13 @@ foo :{
 * 数组、函数、日期
 * 它们都属于 object
 
+#### 特殊值
+* 正0 和 负0 都等于 0，要严谨
+* 无穷大 Infinity 、+Infinity 、-Infinit
+* 无法表达的数字 NaN(Not a Number) 但它是一个数字
+
+
+
 
 
 
