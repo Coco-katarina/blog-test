@@ -135,6 +135,16 @@ base64 转码
 * window.btoa 正常字符串转为Base64编码的字符串
 * windeo.atob Base64编码的字符串转为原来的字符串
 
+### bool
+5个falsy(相当于false但又不是false)值
+1. undefined
+2. null
+3. 0
+4. NaN
+5. ‘’
+
+
+
 
 
 
