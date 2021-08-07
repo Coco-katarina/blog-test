@@ -131,6 +131,9 @@ foo :{
 * \r 回车
 * \t tab制表符
 
+base64 转码
+* window.btoa 正常字符串转为Base64编码的字符串
+* windeo.atob Base64编码的字符串转为原来的字符串
 
 
 
