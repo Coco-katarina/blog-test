@@ -165,6 +165,11 @@ js密码花园 http://bonsaiden.github.io/JavaScript-Garden/zh/
 无序的键值对的数据集合
 * 隐藏属性 
 JS中每一个对象都有一个隐藏属性，这个隐藏属性储存着其共有属性组成的对象(原型)的地址
+* 查看属性
+1. 查看自身key和values  Object.entries(obj)
+2. 查看自身 + 公有属性 console.dir(obj）
+4. 判断一个属性是自身的还是共有的
+  obj.hasOwnProperty('toString')
 
 
 
