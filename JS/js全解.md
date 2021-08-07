@@ -143,21 +143,26 @@ base64 转码
 4. NaN
 5. ‘’
 
-#### undefined和null的区别
+### undefined和null的区别
 没有本质区别
 1. 如果一个变量声明了但没有赋值，那么默认值就是undefined而不是null
 2. 如果一个函数，没有写return，那么默认return undefined而不是null
 3. 前端程序员习惯上，把非对象的空值写为undefined，把对象的空值写为null，仅仅是习惯上而已
 
-#### symbol
+### symbol
 https://zhuanlan.zhihu.com/p/22652486
 
-### 变量声明
+#### 变量声明
 var、let、const
 
 var变量提升，网道教程https://wangdoc.com/javascript/basic/grammar.html#%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87
 
 js密码花园 http://bonsaiden.github.io/JavaScript-Garden/zh/
+
+
+### Object对象
+#### 定义
+无序的键值对的数据集合
 
 
 
