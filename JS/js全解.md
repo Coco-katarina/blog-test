@@ -163,7 +163,8 @@ js密码花园 http://bonsaiden.github.io/JavaScript-Garden/zh/
 ### Object对象
 #### 定义
 无序的键值对的数据集合
-
+* 隐藏属性 
+JS中每一个对象都有一个隐藏属性，这个隐藏属性储存着其共有属性组成的对象(原型)的地址
 
 
 
