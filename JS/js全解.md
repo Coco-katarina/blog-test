@@ -203,4 +203,28 @@ new X()自动做了四件事情
 3. window.Function是谁构造的
   window.Function，浏览数构造了Function，然后指定它的构造者是自己
   
+### 纠错本
+1. 关于「原型」，正确的是（多选）下文中的 x 均代表普通对象
+  * 「x 的原型」等价于「x.__proto__ 所指的对象」 ，有时为了方便，我们可以认为「x 的原型」等价于「x.__proto__ 」
+  * 一个对象的原型指的是这个对象与其他同类对象的公有属性的集合，比如 obj1 和 ob2 同时拥有 toString / valueOf，那么 toString / valueOf 等属性组成的对象，就是 obj1 和 obj2 的原型，这个原型的地址一般储存在构造函数的 prototype 里
+  *  x.__proto__和 Object.prototype 存储着同一个对象的地址，这个对象就是 x 的原型
+  *  每个对象都有原型，但除了「根对象 Object.prototype」比较特殊，Object.prototype 这个对象的原型为空 null
+ 2. 关于 prototype 属性，正确的有
+  * 所有函数一出生就有一个 prototype 属性（除了箭头函数）
+  * 所有 prototype 一出生就有一个 constructor 属性
+  * 所有 constructor 属性一出生就保存了对应的函数的地址
+  * 如果一个函数不是构造函数，它依然拥有 prototype 属性，只不过这个属性暂时没什么用
+  * 如果一个对象不是函数，那么这个对象一般来说没有 prototype 属性，但这个对象一般一定会有 __proto__ 属性
+ 3. 关于 Object.prototype，正确的是（多选）
+  * Object.prototye 是「Object 构造出来的对象 obj」的原型，即 obj.__proto__ === Object.prototype
+  * Object.__proto__ 是 Object 的原型，由于 Object 是函数，而所有函数的原型都是 Function.prototype，所以 Object.__proto__ === Function.prototype
+  *  Object.prototye 不是 Object 的原型，Object.__proto__ 才是 Object 的原型（还记着之前答过「x.原型 等价于 x.__proto__」吗，现在只不过是把 x 替换成 Object。很多人都搞不清楚 Object.__proto__ 和 Object.prototype 哪一个才是 Object 的原型，其实只要记住公式就好办了）
+ 4. 所有「函数对象」的「构造函数」都是 Function
+  * 对
+
+
+
+ 
+
+
 
