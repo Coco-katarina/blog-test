@@ -191,10 +191,16 @@ new X()自动做了四件事情
    * new 后面的函数，使用名词形式
    * 其他函数，一般使用动词开头
 
-
-### 原型公式
+#### 原型公式
 对象.__proto__ === 其构造函数.prototype   
 你是谁创造的你的原型就是谁的prototype属性对应的对象
 
-
+### JS终极一问
+1. window是谁构造的
+  Window，可以通过constructor属性看出构造者
+2. window.Object是谁构造的
+  window.Function，因为所有函数都是window.Function构造的
+3. window.Function是谁构造的
+  window.Function，浏览数构造了Function，然后指定它的构造者是自己
+  
 
