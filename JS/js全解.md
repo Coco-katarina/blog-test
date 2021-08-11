@@ -223,8 +223,26 @@ new X()自动做了四件事情
   * 对
 
 
+## JS数组
+js 只提供浅拷贝
+#### 新建
+* let arr = [1,2,3]
+* let arr = new Array(1,2,3)
+* let arr = new Array(3)
 
+#### 伪数组
+* let divList = document.querySelectorAll('div')
+伪数组的原型链中并没有数组的原型
  
+### 删元素
+delete 删除元素，但是位置保留值为empty，数组长度不变，称为稀疏数组  
+删除中间的元素
+* arr.splice(index, 1) //删除index的一个元素
+* arr.spilice(index,1,'x','y')  //删除并在删除位置添加'x','y'
 
+### 增元素
+* 尾部添加 push
+* 头部添加 unshift
+* 中间添加 splice(index,0,'x') // index出插入x
 
 
