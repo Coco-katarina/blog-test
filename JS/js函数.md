@@ -21,5 +21,6 @@ function f1(){
 f1()
 ```
  f2中的a 和 f3 组成了闭包
-
+## arguments
+伪代码数组
 
