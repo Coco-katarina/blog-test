@@ -146,3 +146,41 @@ f2() // 等价于 f1.call({name:'frank'})
   fn.call({name:'text') //window
  ```
  
+ ## 课后作业
+ 1. 关于调用栈，正确的有（多选）
+  *  JS 引擎进入一个函数之前，需要把当时的环境保存进调用栈
+  *  JS 引擎退出一个函数之前，需要把环境从调用栈里弹出，然后回到这个弹出的环境
+  *  调用栈的长度是有限的
+ 2. 关于 arguments 正确的有（多选）
+  * 每次调用函数时，都会对应产生一个 arguments
+  * arguments 是一个包含所有普通参数的伪数组
+  * 我们应该尽量不对 arguments 内的元素进行修改，修改 arguments 会让代码变得令人疑惑
+ 3. 关于 this，正确的有（多选，假设 fn 是一个普通函数, arrow 是一个箭头函数）
+  * 在 new fn() 调用中，fn 里的 this 指向新生成的对象，这是 new 决定的
+  * 在 fn() 调用中， this 默认指向 window，这是浏览器决定的
+  * 在 obj.fn() 调用中， this 默认指向 obj，这是 JS 的隐式传 this
+  * 在 fn.call(xxx) 调用中，this 就是 xxx，这是开发者通过 call 显式指定的 this
+  * 在 arrow() 调用中，arrow 里面的 this 就是 arrow 外面的 this，因为箭头函数里面没有自己的 this
+  * 在 arrow.call(xxx) 调用中，arrow 里面的 this 还是 arrow 外面的 this，因为箭头函数里面没有自己的 this
+
+ 4. 解释为什么如下代码会打印 6 个 6
+```
+let i = 0
+for(i = 0; i<6; i++){
+  setTimeout(()=>{
+    console.log(i)
+  },0)
+}
+```
+答： for循环会改变i的值，setTimeout在for循环之后执行，此时的i值为6，所以会输出6个6，
+5. 写出让上面代码打印 0、1、2、3、4、5 的方法
+答：
+```
+for(let i = 0; i<6; i++){
+  setTimeout(()=>{
+    console.log(i)
+  },0)
+}
+```
+let放在for里面，js会额外创建一个变量i记录每次循环的值，定时器中i的值对应额外创建的i
+
