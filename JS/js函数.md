@@ -20,7 +20,7 @@ function f1(){
 }
 f1()
 ```
- f2中的a 和 f3 组成了闭包
+ f2 中的a 和 f3 组成了闭包
 ## arguments
 伪代码数组
 ### 如何传arguments
@@ -90,7 +90,7 @@ class Person:
 
   def sayHi(self):
     print('Hi, I am ' + self.name)
-person = Person('frank')
+person = Person('frank')
 person.sayHi()
 特点
   每个函数都接受一个额外的 self
@@ -100,7 +100,7 @@ person.sayHi()
   person 就被传给 self 了
 
 ```
-#### JS贼每个函数里加了this
+#### JS在每个函数里加了this
 ```
 let person = {
   name: 'frank',
@@ -130,8 +130,7 @@ fn.apply(undefined, [1,2])
 function f1(p1, p2){
   console.log(this, p1, p2)
 }
-let f2 = f1.bind({name:'frank'})
-// 那么 f2 就是 f1 绑定了 this 之后的新函数
+let f2 = f1.bind({name:'frank'})   // 那么 f2 就是 f1 绑定了 this 之后的新函数
 f2() // 等价于 f1.call({name:'frank'})
 ```
 
